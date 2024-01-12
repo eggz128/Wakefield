@@ -50,6 +50,7 @@ namespace uk.co.edgewords.wakefield.Utils
         {
             
             //Check if the preceeding test failed......
+            //Add a comment
             if(TestContext.CurrentContext.Result.Outcome == ResultState.Failure)
             {
                 //Take a screenshot
