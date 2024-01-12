@@ -32,8 +32,9 @@ namespace uk.co.edgewords.wakefield.Utils
             /*
              * Now test classes derive from this class, the browser for all tests can be changed in one place - here!
              */
-            
-            driver = new EdgeDriver();
+            EdgeOptions options = new EdgeOptions();
+            options.AddArgument("--headless");
+            driver = new EdgeDriver(options);
             //Implicit wait
             //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
 
