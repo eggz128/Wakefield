@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 using OpenQA.Selenium.Firefox;
 using OpenQA.Selenium.IE;
 using NUnit.Framework.Interfaces;
+//[assembly: Parallelizable(ParallelScope.Fixtures)] //Can only parallelise Features
+//[assembly: LevelOfParallelism(4)] //Worker thread i.e. max amount of Features to run in Parallel
 
 namespace uk.co.edgewords.wakefield.Utils
 {
