@@ -48,16 +48,17 @@ namespace uk.co.edgewords.wakefield.Utils
         [TearDown] //This annotated method will run even if the test crashes half way through
         public void TearDown()
         {
-            
-            //Check if the preceeding test failed......
             //Add a comment
+            //Test Azure CI
+            //Add another comment
+            //Add another comment
             if(TestContext.CurrentContext.Result.Outcome == ResultState.Failure)
             {
-                //Take a screenshot
+                //Take some screenshots
             }
             //We finished - close the web browser
             //driver.Close(); //Close current tab - if only one tab close browser
-            driver.Quit(); //Quit browser (and the Driver Server that runs in the background)
+            driver.Quit();  //Quit browser (and the Driver Server that runs in the background)
 
             //The .Quit() method will dispose of the driver. But NUnit.Analyzers doesnt know that.
             //If not using a pragma as above, another way to solve this "error" is to add a .editorconfig file with the following:
