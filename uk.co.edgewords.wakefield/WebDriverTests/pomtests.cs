@@ -99,7 +99,11 @@ namespace uk.co.edgewords.wakefield.WebDriverTests
             Thread.Sleep(1000);
             Console.WriteLine("Finished Test");
         }
-
+        [Test]
+        public void CITest()
+        {
+            Assert.Pass("Just for demo purposes");
+        }
 
     }
 }
