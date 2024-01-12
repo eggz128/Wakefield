@@ -1,0 +1,56 @@
+<test-run id="2" duration="27.260416" testcasecount="2" total="2" passed="1" failed="1" inconclusive="0" skipped="0" result="Failed" start-time="2024-01-11T 12:55:15Z" end-time="2024-01-11T 12:55:45Z">
+  <test-suite type="Assembly" name="uk.co.edgewords.wakefield.dll" fullname="C:\Users\StevePowell\source\repos\uk.co.edgewords.wakefield\uk.co.edgewords.wakefield\bin\Debug\net6.0\uk.co.edgewords.wakefield.dll" total="2" passed="1" failed="1" inconclusive="0" skipped="0" result="Failed" start-time="2024-01-11T 12:55:17Z" end-time="2024-01-11T 12:55:45Z" duration="27.260416">
+    <test-suite type="TestSuite" name="uk" fullname="uk" total="2" passed="1" failed="1" inconclusive="0" skipped="0" result="Failed" start-time="2024-01-11T 12:55:17Z" end-time="2024-01-11T 12:55:45Z" duration="27.260416">
+      <test-suite type="TestSuite" name="co" fullname="uk.co" total="2" passed="1" failed="1" inconclusive="0" skipped="0" result="Failed" start-time="2024-01-11T 12:55:17Z" end-time="2024-01-11T 12:55:45Z" duration="27.260416">
+        <test-suite type="TestSuite" name="edgewords" fullname="uk.co.edgewords" total="2" passed="1" failed="1" inconclusive="0" skipped="0" result="Failed" start-time="2024-01-11T 12:55:17Z" end-time="2024-01-11T 12:55:45Z" duration="27.260416">
+          <test-suite type="TestSuite" name="wakefield" fullname="uk.co.edgewords.wakefield" total="2" passed="1" failed="1" inconclusive="0" skipped="0" result="Failed" start-time="2024-01-11T 12:55:17Z" end-time="2024-01-11T 12:55:45Z" duration="27.260416">
+            <test-suite type="TestSuite" name="WebDriverTests" fullname="uk.co.edgewords.wakefield.WebDriverTests" total="2" passed="1" failed="1" inconclusive="0" skipped="0" result="Failed" start-time="2024-01-11T 12:55:17Z" end-time="2024-01-11T 12:55:45Z" duration="27.260416">
+              <test-suite type="TestFixture" name="HelloWebDriver" fullname="uk.co.edgewords.wakefield.WebDriverTests.HelloWebDriver" classname="uk.co.edgewords.wakefield.WebDriverTests.HelloWebDriver" total="1" passed="0" failed="1" inconclusive="0" skipped="0" result="Failed" start-time="2024-01-11T 12:55:17Z" end-time="2024-01-11T 12:55:35Z" duration="18.245341">
+                <test-case name="LogoutTest" fullname="uk.co.edgewords.wakefield.WebDriverTests.HelloWebDriver.LogoutTest" methodname="LogoutTest" classname="HelloWebDriver" result="Failed" start-time="2024-01-11T 12:55:17Z" end-time="2024-01-11T 12:55:35Z" duration="18.245341" asserts="0" seed="70687713">
+                  <properties>
+                    <property name="Category" value="Smoke" />
+                  </properties>
+                  <output><![CDATA[Hi
+The page heading is:Access and Authentication
+Perhaps we are not on the login page - try and carry on anyway
+The username text is :edgewords
+Finished
+
+]]></output>
+                  <failure>
+                    <message>Multiple failures or warnings in test:
+  1)   Not on login page?
+Assert.That(headingText, Is.EqualTo("Access and authentication"))
+  String lengths are both 25. Strings differ at index 11.
+  Expected: "Access and authentication"
+  But was:  "Access and Authentication"
+  ----------------------^
+
+  2) Make a warning
+</message>
+                    <stack-trace>
+1)    at uk.co.edgewords.wakefield.WebDriverTests.HelloWebDriver.LogoutTest() in C:\Users\StevePowell\source\repos\uk.co.edgewords.wakefield\uk.co.edgewords.wakefield\WebDriverTests\HelloWebDriver.cs:line 50
+
+2)    at uk.co.edgewords.wakefield.WebDriverTests.HelloWebDriver.LogoutTest() in C:\Users\StevePowell\source\repos\uk.co.edgewords.wakefield\uk.co.edgewords.wakefield\WebDriverTests\HelloWebDriver.cs:line 50
+
+</stack-trace>
+                  </failure>
+                </test-case>
+              </test-suite>
+              <test-suite type="TestFixture" name="MoreWebDriverTests" fullname="uk.co.edgewords.wakefield.WebDriverTests.MoreWebDriverTests" classname="uk.co.edgewords.wakefield.WebDriverTests.MoreWebDriverTests" total="1" passed="1" failed="0" inconclusive="0" skipped="0" result="Passed" start-time="2024-01-11T 12:55:35Z" end-time="2024-01-11T 12:55:45Z" duration="9.015075">
+                <test-case name="ATestInAnotherClass" fullname="uk.co.edgewords.wakefield.WebDriverTests.MoreWebDriverTests.ATestInAnotherClass" methodname="ATestInAnotherClass" classname="MoreWebDriverTests" result="Passed" start-time="2024-01-11T 12:55:35Z" end-time="2024-01-11T 12:55:45Z" duration="9.015075" asserts="0" seed="362804248">
+                  <properties>
+                    <property name="Category" value="Smoke" />
+                  </properties>
+                  <output><![CDATA[This works 
+]]></output>
+                </test-case>
+              </test-suite>
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+    <errors />
+  </test-suite>
+</test-run>

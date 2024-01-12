@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+  <RunConfiguration>
+    <EnvironmentVariables>
+      <!-- List ov env vars-->
+      <SECRET_USERNAME>secret@example.com</SECRET_USERNAME>
+      <SECRET_PASSWORD>letmein123</SECRET_PASSWORD>
+    </EnvironmentVariables>
+  </RunConfiguration>
+  <TestRunParameters>
+    <!-- NUnit config params-->
+    <Parameter name="baseurl" value="https://www.edgewordstraining.co.uk/webdriver2" />
+  </TestRunParameters>
+  
+  
+</RunSettings>

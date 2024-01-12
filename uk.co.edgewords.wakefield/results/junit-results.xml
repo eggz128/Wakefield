@@ -1,0 +1,33 @@
+<testsuites>
+  <testsuite name="uk.co.edgewords.wakefield.dll" tests="2" skipped="0" failures="1" errors="0" time="27.260416" timestamp="2024-01-11T12:55:15" hostname="TERRA-STEVE" id="0" package="uk.co.edgewords.wakefield.dll">
+    <properties />
+    <testcase classname="uk.co.edgewords.wakefield.WebDriverTests.HelloWebDriver" name="LogoutTest" time="18.2453410">
+      <failure type="failure" message="Multiple failures or warnings in test:&#xD;&#xA;  1)   Not on login page?&#xD;&#xA;Assert.That(headingText, Is.EqualTo(&quot;Access and authentication&quot;))&#xD;&#xA;  String lengths are both 25. Strings differ at index 11.&#xD;&#xA;  Expected: &quot;Access and authentication&quot;&#xD;&#xA;  But was:  &quot;Access and Authentication&quot;&#xD;&#xA;  ----------------------^&#xD;&#xA;&#xD;&#xA;  2) Make a warning&#xD;&#xA;">1)    at uk.co.edgewords.wakefield.WebDriverTests.HelloWebDriver.LogoutTest() in C:\Users\StevePowell\source\repos\uk.co.edgewords.wakefield\uk.co.edgewords.wakefield\WebDriverTests\HelloWebDriver.cs:line 50
+
+2)    at uk.co.edgewords.wakefield.WebDriverTests.HelloWebDriver.LogoutTest() in C:\Users\StevePowell\source\repos\uk.co.edgewords.wakefield\uk.co.edgewords.wakefield\WebDriverTests\HelloWebDriver.cs:line 50</failure>
+    </testcase>
+    <testcase classname="uk.co.edgewords.wakefield.WebDriverTests.MoreWebDriverTests" name="ATestInAnotherClass" time="9.0150750" />
+    <system-out>Hi
+The page heading is:Access and Authentication
+Perhaps we are not on the login page - try and carry on anyway
+The username text is :edgewords
+Finished
+
+This works 
+
+Test Framework Informational Messages:
+NUnit Adapter 4.5.0.0: Test execution started
+Running selected tests in C:\Users\StevePowell\source\repos\uk.co.edgewords.wakefield\uk.co.edgewords.wakefield\bin\Debug\net6.0\uk.co.edgewords.wakefield.dll
+   NUnit3TestExecutor discovered 2 of 2 NUnit test cases using Current Discovery mode, Non-Explicit run
+ATestInAnotherClass: This works 
+NUnit Adapter 4.5.0.0: Test execution complete
+</system-out>
+    <system-err>Warning - Hi
+The page heading is:Access and Authentication
+Perhaps we are not on the login page - try and carry on anyway
+The username text is :edgewords
+Finished
+
+</system-err>
+  </testsuite>
+</testsuites>
